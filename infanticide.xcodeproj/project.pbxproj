@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B8F099A14BFD43F003D5898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8F099914BFD43F003D5898 /* main.m */; };
+		7BF69A9714BFB87500136B75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF69A9614BFB87500136B75 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BF69A9014BFB87400136B75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7B8F099814BFD428003D5898 /* infanticide-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "infanticide-Prefix.pch"; path = "Resources/infanticide-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7B8F099914BFD43F003D5898 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Resources/main.m; sourceTree = SOURCE_ROOT; };
+		7BF69A9214BFB87400136B75 /* infanticide */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = infanticide; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF69A9614BFB87500136B75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF69A8F14BFB87400136B75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF69A9714BFB87500136B75 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BF69A8714BFB87300136B75 = {
+			isa = PBXGroup;
+			children = (
+				7BF69A9814BFB87500136B75 /* infanticide */,
+				7BF69A9514BFB87500136B75 /* Frameworks */,
+				7BF69A9314BFB87400136B75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF69A9314BFB87400136B75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF69A9214BFB87400136B75 /* infanticide */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF69A9514BFB87500136B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF69A9614BFB87500136B75 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BF69A9814BFB87500136B75 /* infanticide */ = {
+			isa = PBXGroup;
+			children = (
+				7B8F099914BFD43F003D5898 /* main.m */,
+				7BF69A9B14BFB87500136B75 /* Supporting Files */,
+			);
+			path = infanticide;
+			sourceTree = "<group>";
+		};
+		7BF69A9B14BFB87500136B75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B8F099814BFD428003D5898 /* infanticide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF69A9114BFB87400136B75 /* infanticide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF69AA114BFB87500136B75 /* Build configuration list for PBXNativeTarget "infanticide" */;
+			buildPhases = (
+				7BF69A8E14BFB87400136B75 /* Sources */,
+				7BF69A8F14BFB87400136B75 /* Frameworks */,
+				7BF69A9014BFB87400136B75 /* CopyFiles */,
+				7BF69AA514BFBD2200136B75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = infanticide;
+			productName = infanticide;
+			productReference = 7BF69A9214BFB87400136B75 /* infanticide */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF69A8914BFB87300136B75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "mrgray.com, inc.";
+			};
+			buildConfigurationList = 7BF69A8C14BFB87300136B75 /* Build configuration list for PBXProject "infanticide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BF69A8714BFB87300136B75;
+			productRefGroup = 7BF69A9314BFB87400136B75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF69A9114BFB87400136B75 /* infanticide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BF69AA514BFBD2200136B75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF69A8E14BFB87400136B75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8F099A14BFD43F003D5898 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BF69A9F14BFB87500136B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7BF69AA014BFB87500136B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7BF69AA214BFB87500136B75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "infanticide/infanticide-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BF69AA314BFB87500136B75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "infanticide/infanticide-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF69A8C14BFB87300136B75 /* Build configuration list for PBXProject "infanticide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF69A9F14BFB87500136B75 /* Debug */,
+				7BF69AA014BFB87500136B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF69AA114BFB87500136B75 /* Build configuration list for PBXNativeTarget "infanticide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF69AA214BFB87500136B75 /* Debug */,
+				7BF69AA314BFB87500136B75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF69A8914BFB87300136B75 /* Project object */;
+}

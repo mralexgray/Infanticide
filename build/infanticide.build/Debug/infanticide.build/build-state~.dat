@@ -1,0 +1,98 @@
+Tinfanticide
+v4
+r1
+cCheck dependencies
+cProcessPCH /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth infanticide/infanticide-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide normal x86_64
+
+N/Developer/SDKs/MacOSX10.7.sdk
+c000000004E7AD70B00000000000000EE
+t1316673291
+s238
+
+N/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004E7AD70300000000000ADF9C
+t1316673283
+s712604
+
+N/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide
+t2
+s0
+
+N/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/infanticide.LinkFileList
+c000000004F0F8CEF000000000000008A
+t1326419183
+s138
+
+N/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/infanticide-Prefix.pch
+c000000004F0F80F500000000000000A0
+t1326416117
+s160
+
+N/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m
+c000000004F0F8CEE00000000000009C3
+t1326419182
+s2499
+
+N/var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth
+t2
+s0
+
+CBuild AST from /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesee78d36ec4bfb441^e3fc016fc4bfb441^---0#1#0#--18"Check dependencies36"729AF7EB-6246-470E-9B94-CE559BDECFA5-
+
+CCompileC build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348111987.666262
+e348111987.855612
+r1
+xCompileC
+xbuild/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o
+x/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m:16:6: warning: unused variable 'sleepytime' [-Wunused-variable,12]
+o         int sleepytime = 10; 
+o             ^
+o/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m:18:7: warning: unused variable 'logYESpipeNO' [-Wunused-variable,12]
+o         BOOL logYESpipeNO = NO; 
+o              ^
+o2 warnings generated.
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m75b0aa73c4bfb441^c809db73c4bfb441^-414"/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m:16:6: warning: unused variable 'sleepytime' [-Wunused-variable,12]         int sleepytime = 10;              ^/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m:18:7: warning: unused variable 'logYESpipeNO' [-Wunused-variable,12]         BOOL logYESpipeNO = NO;               ^2 warnings generated.2(21%IDEActivityLogMessage2@28"Unused variable 'sleepytime'-348111987#0#147#-1#-23%DVTTextDocumentLocation3@95"file://localhost/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m0000000000000000^15#5#15#5#18446744073709551615#0#19"Unused Entity Issue--2@30"Unused variable 'logYESpipeNO'-348111987#193#149#-1#-3@95"file://localhost/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m0000000000000000^17#6#17#6#18446744073709551615#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@95"file://localhost/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m0000000000000000^2486"CompileC build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o infanticide/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-generated-files.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-own-target-headers.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-all-target-headers.hmap -iquote /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-project-headers.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/include -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/DerivedSources/x86_64 -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/DerivedSources -F/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug -include /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch -MMD -MT dependencies -MF /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.d -c /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/main.m -o /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/main.o36"6A55ACFB-9539-4795-9CE6-5E713D47598B-
+
+CLd /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide normal x86_64
+s348111987.862265
+e348111988.505134
+r1
+xLd
+x/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide
+xnormal
+xx86_64
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Link /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide5ed6dc73c4bfb441^22508174c4bfb441^---0#0#0#--685"Ld build/Debug/infanticide normal x86_64    cd /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Developer/usr/bin/clang -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.7.sdk -L/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug -F/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug -filelist /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/Objects-normal/x86_64/infanticide.LinkFileList -mmacosx-version-min=10.7 -framework Foundation -o /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/infanticide36"8109D509-B609-4236-A69E-D3B5FBA4815B-
+
+CProcessPCH /Users/localadmin/Library/Developer/Xcode/DerivedData/infanticide-agduxzlwtrjjxpdsbbephtuzhmws/Index/PrecompiledHeaders/infanticide-Prefix-bymbxeipllcliuhibhnnxqnoyirf_ast/infanticide-Prefix.pch.pth infanticide/infanticide-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth infanticide/infanticide-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s348111983.011386
+e348111987.659567
+r1
+xProcessPCH
+x/var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth
+xinfanticide/infanticide-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile infanticide/infanticide-Prefix.pch3508036fc4bfb441^d7d9a873c4bfb441^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/infanticide-Prefix.pch0000000000000000^2505"ProcessPCH /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth infanticide/infanticide-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-print-source-range-info -fdiagnostics-show-category=id -fdiagnostics-parseable-fixits -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wparentheses -Wswitch -Wno-unused-parameter -Wunused-variable -Wunused-value -Wshorten-64-to-32 -DDEBUG=1 -isysroot /Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -mmacosx-version-min=10.7 -gdwarf-2 -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-generated-files.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-own-target-headers.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-all-target-headers.hmap -iquote /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/infanticide-project-headers.hmap -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug/include -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/DerivedSources/x86_64 -I/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/infanticide.build/Debug/infanticide.build/DerivedSources -F/Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/build/Debug -c /Volumes/+10RAID2000/ServiceData/git/Infanticide/infanticide/infanticide/infanticide-Prefix.pch -o /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/8s/88drj2793gq13tktf8d6pcd40000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/infanticide-Prefix-bohdcdemkkxedefgjyvvqvvblzrc/infanticide-Prefix.pch.d36"9B410E34-D8D7-49F1-B0E3-1364CF62B8DD-
+
